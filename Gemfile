@@ -71,4 +71,6 @@ end
 group :test do
   gem 'shoulda-matchers'
   gem 'capybara'
+  gem 'launchy'
+  gem 'simplecov', require: false
 end

@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 describe "process of adding a product" do
+
   it "adds a new product" do
     visit products_path
     click_on 'Create new product'
