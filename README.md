@@ -1,4 +1,4 @@
-#### Food Store
+#### Food Store with Authentication
 ## By
 
 * Kasidit Srisawat (Paul)
@@ -11,7 +11,7 @@
 
 ## Description
 
-This website was built as a demonstration to a food supplier for managing their inventory.
+This website was built as a demonstration to a food supplier for managing their inventory. Authentication was added to showcase the second phase of the project. 
 
 ## Setup/Installation Requirements
 
