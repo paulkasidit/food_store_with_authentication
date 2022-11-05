@@ -11,13 +11,13 @@
 
 ## Description
 
-This website was built as a demonstration to a food supplier for managing their inventory. Authentication was added to showcase the second phase of the project. 
+This website was built as a demonstration to a food supplier for managing their inventory. Authentication was added to showcase the second phase of the project. Only administrators can have access to full CRUD functionality. There is a default admin account created when seeding the database for testing purposes.
 
 ## Setup/Installation Requirements
 
 1. Clone the repo to your desired local directory with the below terminal command (you must already have git installed). Open a terminal in your preferred directory and run this command. 
 ```
-$git clone https://github.com/paulkasidit/food_store
+$git clone https://github.com/paulkasidit/food_store_with_authentication
 
 ``` 
 2. Open this folder in your VS Code. 
