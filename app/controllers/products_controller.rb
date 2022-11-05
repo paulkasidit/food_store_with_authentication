@@ -1,5 +1,10 @@
 class ProductsController < ApplicationController
 
+  before_action :authenticate_user!, :except => [:index]
+  before_action :only => [:new, :edit] do
+    redirect_to new_user_session_path unless current_user && current_user.admin
+  end
+
   def index
     @product = Product.all
     @product_with_most_reviews = Product.most_reviews

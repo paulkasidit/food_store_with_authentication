@@ -1,5 +1,4 @@
 class Product < ApplicationRecord
-
   before_save(:titleize_name, :titleize_country_of_origin)
 
   has_many :reviews, dependent: :destroy 

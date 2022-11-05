@@ -46,7 +46,8 @@
   <p>There are no products yet.</p>
 <% end %>
 
-
-<%= button_to "Create new product", 
+<% if current_user && current_user.admin %>
+  <%= button_to "Create new product", 
               new_product_path,
               method: :get %>
+<% end %>
