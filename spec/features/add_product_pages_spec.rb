@@ -30,4 +30,5 @@ describe "process of adding a product" do
     expect(page).to have_content "Cost can't be blank"
     expect(page).to have_content "Country of origin can't be blank"
   end
+
 end
