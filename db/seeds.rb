@@ -35,3 +35,10 @@ Review.destroy_all
   end
 
 p "Created #{Review.count} reviews"
+
+User.destroy_all 
+
+User.create!({ :email => 'admin@admin.com', :password => 'adminadmin', :password_confirmation => 'adminadmin', :admin => true}).save
+User.create!({ :email => 'guest@guest.com', :password => 'guestguest', :password_confirmation => 'guestguest', :admin => false}).save
+p "Admin user created successfuly email = admin@admin.com, password = adminadmin"
+p "Guest user created successfuly email = guest@guest.com, password = guestguest"

@@ -15,12 +15,12 @@
       <%= flash[:notice] %>
 
     <% if current_user %>
-      <%= button_to 'Sign-out', 
+      <%= button_to 'Sign out', 
           destroy_user_session_path, 
           method: :delete, 
           data: { turbo: false} %>
     <% else %>
-      <%= button_to 'Sign_in', 
+      <%= button_to 'Sign in', 
           new_user_session_path, 
           method: :get %>
     <% end %>
